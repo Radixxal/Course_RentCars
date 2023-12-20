@@ -1,0 +1,37 @@
+# tablerow = 0
+        #
+        # # Вывод записей в TableWidget
+        # for row in results:
+        #     self.ui.tableWidget.setItem(tablerow, 0, QtWidgets.QTableWidgetItem(row[0]))
+        #     self.ui.tableWidget.setItem(tablerow, 1, QtWidgets.QTableWidgetItem(row[1]))
+        #     self.ui.tableWidget.setItem(tablerow, 2, QtWidgets.QTableWidgetItem(row[2]))
+        #     self.ui.tableWidget.setItem(tablerow, 3, QtWidgets.QTableWidgetItem(row[3]))
+        #     self.ui.tableWidget.setItem(tablerow, 4, QtWidgets.QTableWidgetItem(row[4]))
+        #     self.ui.tableWidget.setItem(tablerow, 5, QtWidgets.QTableWidgetItem(row[0]))
+        #     tablerow += 1
+        # rows = cur.fetchall()
+
+
+
+
+
+
+        # self.ui.tableWidget.setRowCount(12)
+        # self.ui.tableWidget.setColumnCount(12)
+
+
+
+        # self.ui.tableWidget.setItem(1, 1, QTableWidgetItem("*"))
+
+    # def DB_Test(self):
+    #     connection = psycopg2.connect(
+    #     host=host,
+    #     user=user,
+    #     password=password,
+    #     database=db_name,
+    #     )
+    #
+    #     cur = connection.cursor()
+    #     with cur:
+    #         cur.execute("""SELECT * FROM Spec;""")
+    #         print(f"Server version1: {cur.fetchone()}")
